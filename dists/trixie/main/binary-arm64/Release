@@ -1,5 +1,5 @@
 Component: main
-Origin: Ahmet Durmaz
-Label: dxrt-apt
+Origin: Aziz Aydin
+Label: sixfab_dx
 Architecture: arm64
-Description: DXRT TEST APT
+Description: Sixfab DX APT

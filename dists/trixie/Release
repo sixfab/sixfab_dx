@@ -1,19 +1,19 @@
-Origin: Ahmet Durmaz
-Label: dxrt-apt
+Origin: Aziz Aydin
+Label: sixfab_dx
 Codename: trixie
-Date: Wed, 08 Apr 2026 09:36:29 UTC
+Date: Mon, 13 Apr 2026 10:14:05 UTC
 Architectures: arm64
 Components: main
-Description: DXRT TEMPORARY APT
+Description: Sixfab DX APT
 MD5Sum:
  7bbac005176d7cfd6eac8b4b232ad32b 2909 main/binary-arm64/Packages
  1b2687a3363c2618da6e81ffd3458203 1221 main/binary-arm64/Packages.gz
- d02709fdb0fdc95868f432726a6f6c83 100 main/binary-arm64/Release
+ 62bbe8e9a5b3c0b4f887de1c244290eb 99 main/binary-arm64/Release
 SHA1:
  13e7f386bcbad5422f99b3e9edbb08d55ef33bf8 2909 main/binary-arm64/Packages
  52409c13fec786e417aa54612a59aa84bb2d65a5 1221 main/binary-arm64/Packages.gz
- 4893415fba3d567028ee8e7ba547048b73837011 100 main/binary-arm64/Release
+ 4c45caec24797d7efb05c9dced1ee991e2397428 99 main/binary-arm64/Release
 SHA256:
  56a2de8f550a370ca430c76049a515fd3e68745391536d51a087cee0284151c3 2909 main/binary-arm64/Packages
  d441c24c03a3013bbbaf3e91ae3341ffea80a46061bf9d73d45f9415ce76973c 1221 main/binary-arm64/Packages.gz
- 436f30836f1dd87a1a5d0934903a528d88ddd19c0cb11734a88de58a447a0f9b 100 main/binary-arm64/Release
+ 0216ae9b6d75e987c1fe5b35acc402b1bbb575455fb8fe6b5763b410660df074 99 main/binary-arm64/Release
