@@ -1,7 +1,7 @@
-Origin: Ahmet Durmaz
-Label: dxrt-apt
+Origin: Aziz Aydin
+Label: sixfab_dx
 Codename: trixie
 Architectures: arm64
 Components: main
-Description: DXRT TEMPORARY APT
-SignWith: 5752FA94
+Description: Sixfab DX APT
+SignWith: AB942B531503BACF
