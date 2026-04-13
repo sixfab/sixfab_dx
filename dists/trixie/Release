@@ -1,19 +1,19 @@
 Origin: Aziz Aydin
 Label: sixfab_dx
 Codename: trixie
-Date: Mon, 13 Apr 2026 10:14:05 UTC
+Date: Mon, 13 Apr 2026 11:20:28 UTC
 Architectures: arm64
 Components: main
 Description: Sixfab DX APT
 MD5Sum:
- 7bbac005176d7cfd6eac8b4b232ad32b 2909 main/binary-arm64/Packages
- 1b2687a3363c2618da6e81ffd3458203 1221 main/binary-arm64/Packages.gz
+ 5d2b8f95aec66d7cc10d9e25051a567d 1623 main/binary-arm64/Packages
+ a5e45e7f95efefbcd95dd84e8ba5575e 789 main/binary-arm64/Packages.gz
  62bbe8e9a5b3c0b4f887de1c244290eb 99 main/binary-arm64/Release
 SHA1:
- 13e7f386bcbad5422f99b3e9edbb08d55ef33bf8 2909 main/binary-arm64/Packages
- 52409c13fec786e417aa54612a59aa84bb2d65a5 1221 main/binary-arm64/Packages.gz
+ a9396f9b6616809fbc5fb580005e683c0d3e0e17 1623 main/binary-arm64/Packages
+ 9522b8d49501ad4dfebfb8ff4efc8c59af7e8642 789 main/binary-arm64/Packages.gz
  4c45caec24797d7efb05c9dced1ee991e2397428 99 main/binary-arm64/Release
 SHA256:
- 56a2de8f550a370ca430c76049a515fd3e68745391536d51a087cee0284151c3 2909 main/binary-arm64/Packages
- d441c24c03a3013bbbaf3e91ae3341ffea80a46061bf9d73d45f9415ce76973c 1221 main/binary-arm64/Packages.gz
+ 2663830a593f781bb40f3cb65efe32758b53523be77a71caa55bdc8f4d8b12aa 1623 main/binary-arm64/Packages
+ 6eacfdf7e8c03d7949f2646c6c191e53db122f49495fdeefbc756e1a28241a85 789 main/binary-arm64/Packages.gz
  0216ae9b6d75e987c1fe5b35acc402b1bbb575455fb8fe6b5763b410660df074 99 main/binary-arm64/Release
