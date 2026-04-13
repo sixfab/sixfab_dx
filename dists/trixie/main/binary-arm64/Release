@@ -1,0 +1,5 @@
+Component: main
+Origin: Ahmet Durmaz
+Label: dxrt-apt
+Architecture: arm64
+Description: DXRT TEST APT

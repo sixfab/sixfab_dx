@@ -1,0 +1,7 @@
+Origin: Ahmet Durmaz
+Label: dxrt-apt
+Codename: trixie
+Architectures: arm64
+Components: main
+Description: DXRT TEMPORARY APT
+SignWith: 5752FA94
