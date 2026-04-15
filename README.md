@@ -24,6 +24,12 @@ Update the package list and install `sixfab-dx`:
 sudo apt update && sudo apt install sixfab-dx
 ```
 
+## Confirmation
+
+```bash
+dxrt-cli -s
+```
+
 ## Updating
 
 Use the standard APT workflow to update to newer versions:
