@@ -24,22 +24,6 @@ Update the package list and install `sixfab-dx`:
 sudo apt update && sudo apt install sixfab-dx
 ```
 
-## Post-Installation Configuration
-
-To enable DeepX, the following parameters must be appended to the end of `/boot/firmware/config.txt`:
-
-```ini
-dtparam=pciex1
-dtparam=pciex1_gen=3
-dtoverlay=pciex1-compat-pi5,no-mip
-```
-
-Then reboot for the changes to take effect:
-
-```bash
-sudo reboot
-```
-
 ## Updating
 
 Use the standard APT workflow to update to newer versions:
