@@ -1,0 +1,19 @@
+Origin: Aziz Aydin
+Label: sixfab_dx
+Codename: bookworm
+Date: Tue, 21 Apr 2026 14:04:57 UTC
+Architectures: arm64
+Components: main
+Description: Sixfab DX APT
+MD5Sum:
+ d355aa18c5751173daadd75022cf94a7 1563 main/binary-arm64/Packages
+ cbe4dc2ca01847c304b65f52866a6741 785 main/binary-arm64/Packages.gz
+ 62bbe8e9a5b3c0b4f887de1c244290eb 99 main/binary-arm64/Release
+SHA1:
+ 60b6593686893085751f621a3ba31e3390dcffc7 1563 main/binary-arm64/Packages
+ c021fa3712b0cea44188ed8f87957c40d31e5c09 785 main/binary-arm64/Packages.gz
+ 4c45caec24797d7efb05c9dced1ee991e2397428 99 main/binary-arm64/Release
+SHA256:
+ 9cc16e2257366e6d9074223bc3f14c6a79d5588074bf62292d64ff790baf2ef3 1563 main/binary-arm64/Packages
+ 869e4026491a3f1937935067fa416d3ff86d42686ed7698e1aaa722c134ad792 785 main/binary-arm64/Packages.gz
+ 0216ae9b6d75e987c1fe5b35acc402b1bbb575455fb8fe6b5763b410660df074 99 main/binary-arm64/Release
