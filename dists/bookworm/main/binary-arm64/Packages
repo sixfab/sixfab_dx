@@ -1,0 +1,46 @@
+Package: dxrt-driver-dkms
+Version: 2.4.0-2
+Architecture: all
+Maintainer: Lee Huseong <hslee@deepx.ai>
+Installed-Size: 902
+Depends: dkms
+Homepage: https://deepx.ai
+Priority: optional
+Section: kernel
+Filename: pool/main/d/dxrt-driver-dkms/dxrt-driver-dkms_2.4.0-2_all.deb
+Size: 146436
+SHA256: 3182d0ae59f69aad7b8ee6efdc13adf737abab8c0d90bd8ac9caddca9dd840e7
+SHA1: 401d409e468f427fddea4973244055c04760cdd3
+MD5sum: 4948b7ceef4935b56e5f9dc4f0f81064
+Description: A DEEPX NPU Driver
+
+Package: sixfab-dx
+Version: 3.3.0
+Architecture: arm64
+Maintainer: Sixfab FAE <fae@sixfab.com>
+Depends: libstdc++6, libc6, sixfab-dx-onnxruntime, dxrt-driver-dkms
+Priority: optional
+Section: libs
+Filename: pool/main/s/sixfab-dx/sixfab-dx_3.3.0_arm64.deb
+Size: 75491440
+SHA256: 3e27617f2ddfd89975a597c9a7b1db4f1983588f9ff2838836735b2e5ac0ff9c
+SHA1: 91a944ec73279d4f3d307ccc09d9ccc0f4809704
+MD5sum: 587026297fb771097b1a4769e9329aa9
+Description: DeepX NPU Runtime for Raspberry Pi by Sixfab
+ DeepX runtime libraries, tools and daemon for NPU acceleration.
+
+Package: sixfab-dx-onnxruntime
+Version: 1.20.1
+Architecture: arm64
+Maintainer: Sixfab FAE <fae@sixfab.com>
+Depends: libc6, libstdc++6
+Priority: optional
+Section: libs
+Filename: pool/main/s/sixfab-dx-onnxruntime/sixfab-dx-onnxruntime_1.20.1_arm64.deb
+Size: 3596016
+SHA256: b649ee372231e975bea83c7039747100ee4aa6560c831a888da0e6fbf3b45ed0
+SHA1: 554191ebe0c0688a3571528843c7276389929a6a
+MD5sum: d4f787fee9f08f19d23b5f58d1468f00
+Description: ONNX Runtime libraries for DeepX SDK
+ Microsoft ONNX Runtime 1.20.1 repackaged for DeepX SDK.
+
