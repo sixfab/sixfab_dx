@@ -1,0 +1,5 @@
+Component: main
+Origin: Aziz Aydin
+Label: sixfab_dx
+Architecture: arm64
+Description: Sixfab DX APT
