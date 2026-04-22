@@ -1,19 +1,19 @@
 Origin: Aziz Aydin
 Label: sixfab_dx
 Codename: bookworm
-Date: Wed, 22 Apr 2026 09:44:53 UTC
+Date: Wed, 22 Apr 2026 13:13:04 UTC
 Architectures: arm64
 Components: main
 Description: Sixfab DX APT
 MD5Sum:
- a31a2b8325e647f8506dcc752553bc3c 1563 main/binary-arm64/Packages
- ffecdd47ccc14436cbdd9eecdba287fd 783 main/binary-arm64/Packages.gz
+ ea730748ea854735c4bdd16dd43d759a 1563 main/binary-arm64/Packages
+ f746d5af2420f3388117b1c711961e13 784 main/binary-arm64/Packages.gz
  62bbe8e9a5b3c0b4f887de1c244290eb 99 main/binary-arm64/Release
 SHA1:
- f18e101a1ff0f1f38c7bdf8142230b3e1a6fd04c 1563 main/binary-arm64/Packages
- 65025a36b6eea9c0bbec78f87189a2c39d5ba140 783 main/binary-arm64/Packages.gz
+ 198e5b03eb56db05b03825935087b560338c328b 1563 main/binary-arm64/Packages
+ 7d9aadf4df7764b18698a4a837aed81a80d7bad6 784 main/binary-arm64/Packages.gz
  4c45caec24797d7efb05c9dced1ee991e2397428 99 main/binary-arm64/Release
 SHA256:
- 62f9f599e131316d249580c2edd32d9ac9f53fdb71ac5df8f4c31b83e356e218 1563 main/binary-arm64/Packages
- f066f01b2f5375e3d707d4a685650689fdcf1c3f91b05c0aacdabdff5263556a 783 main/binary-arm64/Packages.gz
+ e233172fa71ce7458214a7369fbfcf1246840f9bc6b4834d9b638e3f83dee758 1563 main/binary-arm64/Packages
+ 750c6443b7743ff3eb49510490efa57cca04668a435c8a9c4abea1b689b4d3bc 784 main/binary-arm64/Packages.gz
  0216ae9b6d75e987c1fe5b35acc402b1bbb575455fb8fe6b5763b410660df074 99 main/binary-arm64/Release
