@@ -8,10 +8,10 @@ Homepage: https://deepx.ai
 Priority: optional
 Section: kernel
 Filename: pool/main/d/dxrt-driver-dkms/dxrt-driver-dkms_2.4.0-2_all.deb
-Size: 141528
-SHA256: e0254ee050bd951b5ece46be230d512f850238939e28c8384e38f8f3f825bebc
-SHA1: fe0515797b3239430e80466d2b51f4c5a2d74814
-MD5sum: 6862d168eecde3b91ec8e4630d07dff9
+Size: 141496
+SHA256: 6f1be77764e2826dfe00c8513dc2a3d9b9564c426ae49c35ce394b091fba143d
+SHA1: 04b0c1a8022b26e008de3a6f8842884e4753b18a
+MD5sum: a48d3872c42625bcbe1d978c72758d43
 Description: A DEEPX NPU Driver
 
 Package: sixfab-dx
@@ -22,10 +22,10 @@ Depends: libstdc++6, libc6, sixfab-dx-onnxruntime, dxrt-driver-dkms
 Priority: optional
 Section: libs
 Filename: pool/main/s/sixfab-dx/sixfab-dx_3.3.0_arm64.deb
-Size: 91192276
-SHA256: 71a0a6988f71a5a50001f324682cd3afba9ca477a1fde11a234408c8bb845c48
-SHA1: 05af6d7d89658148fc5eba9a96570a3216143d37
-MD5sum: 4c47a28ed85de2df4a1037d9589f9a93
+Size: 91192064
+SHA256: d13ab94c1440815f96fcb9b0b29e36980deabddaa0058773bb8cc592d256cdf8
+SHA1: 58315b2aa8e12013a41ed410363d432762641238
+MD5sum: 529aa72b9595842f739760202a30701e
 Description: DeepX NPU Runtime for Raspberry Pi by Sixfab
  DeepX runtime libraries, tools and daemon for NPU acceleration.
 
