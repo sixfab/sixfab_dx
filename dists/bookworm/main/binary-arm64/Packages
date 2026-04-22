@@ -8,10 +8,10 @@ Homepage: https://deepx.ai
 Priority: optional
 Section: kernel
 Filename: pool/main/d/dxrt-driver-dkms/dxrt-driver-dkms_2.4.0-2_all.deb
-Size: 141616
-SHA256: 43b6ac24457b4060ff018fbd26818a0832cd07f3f933da4fd00f796c7e56cd69
-SHA1: d082c1bf977330c16dd4c114a020ed0ce7363ca2
-MD5sum: aed92d4214c6900859ff59091bb10e73
+Size: 141668
+SHA256: ecb23b5f36e2436858059429605f2068db80d4d892c94e70bf41d418a140e906
+SHA1: d1ded0f9611f3e7e70eb5eec208faf1cd49b0154
+MD5sum: f571b53dd9d7acd155535bbf7423068b
 Description: A DEEPX NPU Driver
 
 Package: sixfab-dx
