@@ -4,35 +4,35 @@ Hash: SHA512
 Origin: Aziz Aydin
 Label: sixfab_dx
 Codename: trixie
-Date: Thu, 23 Apr 2026 10:21:54 UTC
+Date: Mon, 27 Apr 2026 15:36:58 UTC
 Architectures: arm64
 Components: main
 Description: Sixfab DX APT
 MD5Sum:
- d212ff751e8613086ddb4edb6ede2a28 1563 main/binary-arm64/Packages
- c935d7629bc406bac4d4f202382452fb 786 main/binary-arm64/Packages.gz
+ 5127d8ea9438ca061f28ab7659a0c2f6 1616 main/binary-arm64/Packages
+ a8dd8f460eb1ca6e317c63e5822c701a 816 main/binary-arm64/Packages.gz
  62bbe8e9a5b3c0b4f887de1c244290eb 99 main/binary-arm64/Release
 SHA1:
- 60cddd409c5b7f1bdd1f473c26dd0e183f59ae96 1563 main/binary-arm64/Packages
- 286bd5603a87149e93395766703b07ecfae83664 786 main/binary-arm64/Packages.gz
+ 26962d11787ce6e9047c243bc6cc8624298d5c7d 1616 main/binary-arm64/Packages
+ 876fe0de38424f7804d0801cb144b08b6b0eb3f3 816 main/binary-arm64/Packages.gz
  4c45caec24797d7efb05c9dced1ee991e2397428 99 main/binary-arm64/Release
 SHA256:
- f866bf6ee42b895cbf1eed3b0ec1fdbe2c85f762701a0fa40dc32a52e1c81311 1563 main/binary-arm64/Packages
- 7d42710b8c890589595d947e869390e91564c9968156a0482c0f32255eeebb8e 786 main/binary-arm64/Packages.gz
+ 1659366b14fc17a2a02b02002230d33dde532eaabe914e3c0a3e45db8ca029b3 1616 main/binary-arm64/Packages
+ 52d68dd13ceaeb7c59ecd11c11ce6016052291e8fa77bd28e33a246db33c6e8b 816 main/binary-arm64/Packages.gz
  0216ae9b6d75e987c1fe5b35acc402b1bbb575455fb8fe6b5763b410660df074 99 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEAG6rXNrKaEe5/lvaWnBHsVF741QFAmnp8sMACgkQWnBHsVF7
-41SAehAArwM+edaPZ143ENbYzqO2LS5ksBfpe9lRJ3lcj8o6ldxxOD8r/lSO86Ou
-mKXqAu4yYIzcgB+PZIzMKZo8OJrwAWoQpLJnozkTLvtBOWOUxqvwkLBFzSC0qq/C
-pYNQzYMzScsgC2Lu3dZkRo40Am+eewux+elYILID8zMBzl9c9QS1m1CpLivZzTLL
-K8W/Efgw0PCZ5yVlvbpKU6il7A75m7lFd+ohFrTu/BFdteK5RxsUB35wSX8Rbp6i
-1pPFR21DTCABUFX/BpgFKtJ2TatT+2okZNwMCiKApIyPoDv+VwnSkped9Fsp8MSh
-ImAhPzFL8hregnd6OECEkxQTKxJLmIOQ2CYPtTjMuPX9ewZQYM++CsaTcxLFShIV
-l+tRqb37iH5yen9qZU6u7l82Nw2V7n2UFaddSJCGmYeHq94cV/CRk/Mna/isG6M2
-XAWUrxR6sugIJ/ZBolcFAdlM3VVzXftCmVAuR7paBJMkQZBEDqd0UfihkiO/UWq0
-HB2nJf8t18uxkquVb8ux2yjgPJd4gFAuOXkMU67r1b8KyM/H8neSb791NUpgRGjy
-U+cMo9vuRyUSoi8xLrHPPWrKQapaJYER9/Q3nBaKIzrdklRFSgXqtv3J1+pSpZk0
-B9joV2bbH61q4fbrDKe71eyxqU71xfvEzOMFRt/u7L773A2Brko=
-=nsiB
+iQIzBAEBCgAdFiEEAG6rXNrKaEe5/lvaWnBHsVF741QFAmnvgpsACgkQWnBHsVF7
+41QbXw/8Ckp6dJWySab1Pn4Nkd93DgY8FPj3jyWe8gyvaSj0I/2d3Hr0bF5tvnOr
+jOo5OC1BKJ7yOjr+9kT7zW+Zaykkj23gsE9mUQouguED/AgplfOvZAS0xzFlCS97
+NxZ4VvNnMygmcgkPeOJOHEVmPfbhJBuoJFQJlNQIDsFVYA0NxlcrKQm2eGsdhHis
+t9GeDPc0O6PmR9EFfR4vetMrfxzHeOF/jksszs2Y41W7JtwcPZUxBB9gCPPYJ1ce
+n/NMS4nIJP73ehWOMF7gx3hgDQ7dkbTrheekhX4QrZYhVPOkMJRHbgwEx4oMhxzz
+uZ3WILlwgbaoOMmKFGDtJq3QlHBRnwqvbARgUDFbPGomsmTiDmDpJiO0CQAgy2bB
+zEBYvSxsojEfJ2uXTjz4sW8GgykRlGX3xAVNpZ98TcGeYpW16fqEd7BZWqA0WOpV
+Uj59cDfRwC6lRZL2YQR3g5Fr8TAFVozGN5/B+vTLxz7WAlrCmW+apR2lRn5A2hC+
+4jvD8w7AOEqc3nY4mtH+wTw/VbX856cVanJbLeTmeZZeRnKLBBXkfiCjkI4G3e81
+3r66WjvPfzrG+kQQaSirPlCPcJwJgrBaVJTSeek8MwHdZgv56083t2ihElawfg0r
+VlBdJ7FU0P0XG+3hyzUKkgwrwwyLKNxFgtd4Xv3ii7yvHgqBdAQ=
+=gCv8
 -----END PGP SIGNATURE-----
