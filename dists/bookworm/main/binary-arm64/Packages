@@ -15,17 +15,17 @@ MD5sum: ece63d90637c53221324550363b45e6d
 Description: A DEEPX NPU Driver
 
 Package: sixfab-dx
-Version: 3.3.0
+Version: 3.3.0-bookworm
 Architecture: arm64
 Maintainer: Sixfab FAE <fae@sixfab.com>
-Depends: libstdc++6, libc6, sixfab-dx-onnxruntime, dxrt-driver-dkms, python3, libopencv-highgui410, libopencv-videoio410
+Depends: libstdc++6, libc6, sixfab-dx-onnxruntime, dxrt-driver-dkms, python3, libopencv-highgui406, libopencv-videoio406
 Priority: optional
 Section: libs
-Filename: pool/main/s/sixfab-dx/sixfab-dx_3.3.0_arm64.deb
-Size: 91191984
-SHA256: fe383f7ec55170ddd5d245c6753b50e9cd3b1616d98f78fd700b0a9a51ceaf3f
-SHA1: 5144b020ac0f0c48aa98558c7a479f0300e4fd1c
-MD5sum: 3d043b53b8151e00141a9e2c3aa12b66
+Filename: pool/main/s/sixfab-dx/sixfab-dx_3.3.0-bookworm_arm64.deb
+Size: 91197204
+SHA256: 61f06ada97ef1e4213c7f8ae2a931a3117db29c0dd90626ad03f5907e50072ab
+SHA1: 176b453ad3f9d9ae9aa5dcc3f41250860c4667c5
+MD5sum: d720d827f6c98452ae01f2060796d7c8
 Description: DeepX NPU Runtime for Raspberry Pi by Sixfab
  DeepX runtime libraries, tools and daemon for NPU acceleration.
 
