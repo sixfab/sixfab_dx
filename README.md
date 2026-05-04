@@ -15,6 +15,27 @@ sudo dpkg -i apt-repo-sixfab.deb
 sudo apt update && sudo apt install sixfab-dx
 ```
 
+### 3. Enable PCIe Gen 3 for optimal performance
+
+To get the best inference throughput from the DX-M1 NPU, open the boot configuration file:
+
+```bash
+sudo nano /boot/firmware/config.txt
+```
+
+Add the following lines at the end of the file:
+
+```bash
+dtparam=pciex1
+dtparam=pciex1_gen=3
+```
+
+Save and exit (Ctrl+X, then Y, then Enter), then reboot:
+
+```bash
+sudo reboot
+```
+
 ## Confirmation
 
 ```bash
