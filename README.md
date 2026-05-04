@@ -1,24 +1,15 @@
 ## Installation
 
-### 1. Add the GPG key
+### 1. Install the package
 
-Download the public key and add it to your system to verify the repository's signature:
-
-```bash
-wget -qO - https://sixfab.github.io/sixfab_dx/public.gpg | sudo gpg --dearmor -o /usr/share/keyrings/sixfab-dx.gpg
-```
-
-### 2. Add the APT repository
-
-Register the Sixfab DX repository in your APT sources:
+Install the apt-repo-sixfab package.
 
 ```bash
-echo "deb [signed-by=/usr/share/keyrings/sixfab-dx.gpg] https://sixfab.github.io/sixfab_dx trixie main" | sudo tee /etc/apt/sources.list.d/sixfab-dx.list
+wget https://github.com/sixfab/sixfab_dx/releases/download/v0.1/apt-repo-sixfab.deb
+sudo dpkg -i apt-repo-sixfab.deb
 ```
 
-### 3. Install the package
-
-Update the package list and install `sixfab-dx`:
+### 2. Install sixfab-dx package
 
 ```bash
 sudo apt update && sudo apt install sixfab-dx
@@ -43,10 +34,7 @@ sudo apt update && sudo apt upgrade sixfab-dx
 To remove the package and clean up the repository configuration:
 
 ```bash
-sudo apt remove sixfab-dx
-sudo rm /etc/apt/sources.list.d/sixfab-dx.list
-sudo rm /usr/share/keyrings/sixfab-dx.gpg
-sudo apt update
+sudo apt remove sixfab-dx sixfab-dx-onnxruntime dxrt-driver-dkms
 ```
 
 ## Support
