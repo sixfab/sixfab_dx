@@ -1,21 +1,6 @@
 ## Installation
 
-### 1. Install the package
-
-Install the apt-repo-sixfab package.
-
-```bash
-wget https://github.com/sixfab/sixfab_dx/releases/download/v0.1/apt-repo-sixfab.deb
-sudo dpkg -i apt-repo-sixfab.deb
-```
-
-### 2. Install sixfab-dx package
-
-```bash
-sudo apt update && sudo apt install sixfab-dx
-```
-
-### 3. Enable PCIe Gen 3 for optimal performance
+### 1. Enable PCIe Gen 3 for optimal performance
 
 To get the best inference throughput from the DX-M1 NPU, open the boot configuration file:
 
@@ -34,6 +19,21 @@ Save and exit (Ctrl+X, then Y, then Enter), then reboot:
 
 ```bash
 sudo reboot
+```
+
+### 2. Install the package
+
+Install the apt-repo-sixfab package.
+
+```bash
+wget https://github.com/sixfab/sixfab_dx/releases/download/v0.1/apt-repo-sixfab.deb
+sudo dpkg -i apt-repo-sixfab.deb
+```
+
+### 3. Install sixfab-dx package
+
+```bash
+sudo apt update && sudo apt install sixfab-dx
 ```
 
 ## Confirmation
