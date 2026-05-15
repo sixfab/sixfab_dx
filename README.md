@@ -26,8 +26,7 @@ sudo reboot
 Install the apt-repo-sixfab package.
 
 ```bash
-wget https://github.com/sixfab/sixfab_dx/releases/download/v0.1/apt-repo-sixfab.deb
-sudo dpkg -i apt-repo-sixfab.deb
+sudo apt install apt-repo-sixfab
 ```
 
 ### 3. Install sixfab-dx package
