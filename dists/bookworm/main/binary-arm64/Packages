@@ -1,32 +1,32 @@
 Package: dxrt-driver-dkms
-Version: 2.4.1-2
+Version: 2.6.0-2
 Architecture: all
 Maintainer: Lee Huseong <hslee@deepx.ai>
-Installed-Size: 904
+Installed-Size: 1119
 Depends: dkms, build-essential
 Recommends: linux-headers-generic | linux-headers-amd64 | linux-headers-arm64 | linux-headers-armmp | raspberrypi-kernel-headers
 Homepage: https://deepx.ai
 Priority: optional
 Section: kernel
-Filename: pool/main/d/dxrt-driver-dkms/dxrt-driver-dkms_2.4.1-2_all.deb
-Size: 146770
-SHA256: bc2623084f0f277a19d49ebc276a52b280877d526115e5979f3063ea4ea88bdb
-SHA1: 463662a3aa59db8ecfa26d1ab51b4f8ab82c7b31
-MD5sum: 793f8348752fc4a3fb1ea7ca80982619
+Filename: pool/main/d/dxrt-driver-dkms/dxrt-driver-dkms_2.6.0-2_all.deb
+Size: 193980
+SHA256: 6ab417956d2abd70c181c4aa0bae71bc60e0961ccf37eac9fc82d0e6a8314468
+SHA1: 0b4aa266d9e7fccf8e4811f3ff0cce28a197aa5e
+MD5sum: c199661c8b50e2aef652040d5b1d5ea1
 Description: A DEEPX NPU Driver
 
 Package: sixfab-dx
-Version: 3.3.2-bookworm
+Version: 3.4.1-bookworm
 Architecture: arm64
 Maintainer: Sixfab FAE <fae@sixfab.com>
 Depends: libstdc++6 (>= 12), libc6 (>= 2.34), sixfab-dx-onnxruntime, dxrt-driver-dkms, python3, libopencv-highgui406, libopencv-videoio406
 Priority: optional
 Section: libs
-Filename: pool/main/s/sixfab-dx/sixfab-dx_3.3.2-bookworm_arm64.deb
-Size: 92486304
-SHA256: c2046ac50266002f54c6ff5d29fdaaeaaceba068c97be06399edcf9ed840a2ce
-SHA1: 9c595749b5c5712ca84c925685ba7b2d5ce97544
-MD5sum: 84f043e8c748c872fbb79af4f7e8a033
+Filename: pool/main/s/sixfab-dx/sixfab-dx_3.4.1-bookworm_arm64.deb
+Size: 53822752
+SHA256: d02915082022ddd87c7a34dd0292f30462000c3f4780ec09e35f12d7db4ffbdc
+SHA1: 29e243d28af7be2841ab12d022de302f26f48927
+MD5sum: 50c89ab5249dfd2fa573daaebc903b3c
 Description: DeepX NPU Runtime for Raspberry Pi by Sixfab
  DeepX runtime libraries, tools and daemon for NPU acceleration.
 
