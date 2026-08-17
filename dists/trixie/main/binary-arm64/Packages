@@ -23,10 +23,10 @@ Depends: libstdc++6, libc6, sixfab-dx-onnxruntime, dxrt-driver-dkms, python3, li
 Priority: optional
 Section: libs
 Filename: pool/main/s/sixfab-dx/sixfab-dx_3.4.1_arm64.deb
-Size: 53825136
-SHA256: c52cf16bdf1283a0e0cd4e2c4138b6ab303c712a7181eeb6fc7590c055ebe2ac
-SHA1: 5be49dcd143082e3346fff6617a4abe288b2ed25
-MD5sum: a9269359eb8218ad62a679b1a1a82419
+Size: 53499392
+SHA256: ff852d53a7fc8ec635da60009183415f19a3945d4bc75b974e802fc33674d0ea
+SHA1: b8267f0dd30b48b9a8717bdcd691868a74bf02e0
+MD5sum: ea6a136e848c9357d3c7c8434ce1e75f
 Description: DeepX NPU Runtime for Raspberry Pi by Sixfab
  DeepX runtime libraries, tools and daemon for NPU acceleration.
 
