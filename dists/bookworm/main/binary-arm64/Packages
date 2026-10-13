@@ -15,33 +15,74 @@ SHA1: 0b4aa266d9e7fccf8e4811f3ff0cce28a197aa5e
 MD5sum: c199661c8b50e2aef652040d5b1d5ea1
 Description: A DEEPX NPU Driver
 
-Package: sixfab-dx
-Version: 3.4.1-bookworm
+Package: libdxrt-bin
+Version: 3.4.2
 Architecture: arm64
-Maintainer: Sixfab FAE <fae@sixfab.com>
-Depends: libstdc++6 (>= 12), libc6 (>= 2.34), sixfab-dx-onnxruntime, dxrt-driver-dkms, python3, libopencv-highgui406, libopencv-videoio406
+Maintainer: DEEPX Runtime Team <rt@deepx.ai>
+Installed-Size: 66841
+Depends: libc6 (>= 2.27), libgcc-s1 (>= 4.0), libncurses6 (>= 6), libstdc++6 (>= 10.2), libtinfo6 (>= 6)
+Recommends: python3 (>= 3.8), python3-pip
+Conflicts: libdxrt
+Replaces: libdxrt
+Homepage: https://deepx.ai
 Priority: optional
 Section: libs
-Filename: pool/main/s/sixfab-dx/sixfab-dx_3.4.1-bookworm_arm64.deb
-Size: 53822752
-SHA256: d02915082022ddd87c7a34dd0292f30462000c3f4780ec09e35f12d7db4ffbdc
-SHA1: 29e243d28af7be2841ab12d022de302f26f48927
-MD5sum: 50c89ab5249dfd2fa573daaebc903b3c
-Description: DeepX NPU Runtime for Raspberry Pi by Sixfab
- DeepX runtime libraries, tools and daemon for NPU acceleration.
+Filename: pool/main/libd/libdxrt-bin/libdxrt-bin_3.4.2_arm64.deb
+Size: 23405256
+SHA256: 161223058938c54efadc581b33499210194da58e55cd5ade332e692ca0d649c2
+SHA1: 6a0663eb936ee3e6bfe99dab2cdf5ff692358b16
+MD5sum: df5e9236bebec9c962f427aeffd1e4c4
+Description: DEEPX Runtime Library (pre-built binary package)
+ DEEPX Runtime (DXRT) library for running neural network inference
+ on DEEPX NPU hardware.
+ .
+ This is the binary distribution of libdxrt. Unlike the source package
+ (libdxrt) which compiles on the target machine during installation,
+ this package ships pre-built shared libraries, CLI tools, headers, and
+ (optionally) a pre-built dx_engine Python wheel. Install time is fast
+ and no compiler toolchain is required on the target.
+ .
+ python3 and python3-pip are listed under Recommends — they are only
+ required when the package ships a dx_engine wheel under
+ /usr/share/libdxrt-bin/python/. On Python-less servers the package
+ installs cleanly and the wheel install step in postinst is skipped.
 
-Package: sixfab-dx-onnxruntime
-Version: 1.20.1
+Package: sixfab-dx
+Version: 3.5.0-bookworm
 Architecture: arm64
 Maintainer: Sixfab FAE <fae@sixfab.com>
-Depends: libc6, libstdc++6
+Pre-Depends: sixfab-dx-migrate (>= 1.0.0)
+Depends: libstdc++6 (>= 12), libc6 (>= 2.34), libdxrt-bin (>= 3.4.2), dxrt-driver-dkms (>= 2.6.0), python3, libopencv-highgui406, libopencv-videoio406
+Recommends: python3-venv, python3-numpy
 Priority: optional
 Section: libs
-Filename: pool/main/s/sixfab-dx-onnxruntime/sixfab-dx-onnxruntime_1.20.1_arm64.deb
-Size: 3596016
-SHA256: b649ee372231e975bea83c7039747100ee4aa6560c831a888da0e6fbf3b45ed0
-SHA1: 554191ebe0c0688a3571528843c7276389929a6a
-MD5sum: d4f787fee9f08f19d23b5f58d1468f00
-Description: ONNX Runtime libraries for DeepX SDK
- Microsoft ONNX Runtime 1.20.1 repackaged for DeepX SDK.
+Filename: pool/main/s/sixfab-dx/sixfab-dx_3.5.0-bookworm_arm64.deb
+Size: 41069544
+SHA256: 845ae84b8c2b02b6721246ce19a4ac99c00b83dcddd0e825a751551ac84488d6
+SHA1: 3bd3618a1a66014db78e6630b171513509cb8940
+MD5sum: 143b90243d34f15cfe403adf0ee7cb95
+Description: DeepX NPU user-space package for Raspberry Pi by Sixfab
+ Sixfab user-space layer on top of the DEEPX runtime (libdxrt-bin) and
+ kernel driver (dxrt-driver-dkms): demo application, sample model and
+ video, and a Python environment with the dx_engine API.
+
+Package: sixfab-dx-migrate
+Version: 1.0.0
+Architecture: all
+Maintainer: Sixfab FAE <fae@sixfab.com>
+Conflicts: sixfab-dx (<< 3.5.0), sixfab-dx-onnxruntime
+Replaces: sixfab-dx (<< 3.5.0), sixfab-dx-onnxruntime
+Priority: optional
+Section: libs
+Filename: pool/main/s/sixfab-dx-migrate/sixfab-dx-migrate_1.0.0_all.deb
+Size: 1280
+SHA256: 12736b28deae3870f707508cdf2781ff2fd6e2a02ef2d1625a3ef5f9b49b68e3
+SHA1: cb99fbded94c8986d8f5c42bad6f7aa3540ff920
+MD5sum: 69b81de60f9a35fe0361bfdd21454541
+Description: Migration helper for sixfab-dx 3.5.0
+ Removes the pre-3.5.0 sixfab-dx and sixfab-dx-onnxruntime packages, which
+ shipped the DEEPX runtime files that libdxrt-bin now provides, so that the
+ upgrade to sixfab-dx 3.5.0 does not fail with file conflicts. Contains no
+ files other than documentation and can be ignored once sixfab-dx >= 3.5.0
+ is installed.
 
