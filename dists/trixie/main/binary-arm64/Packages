@@ -1,25 +1,25 @@
 Package: dxrt-driver-dkms
-Version: 2.6.0-2
+Version: 2.7.0-2
 Architecture: all
 Maintainer: Lee Huseong <hslee@deepx.ai>
-Installed-Size: 1119
+Installed-Size: 1185
 Depends: dkms, build-essential
 Recommends: linux-headers-generic | linux-headers-amd64 | linux-headers-arm64 | linux-headers-armmp | raspberrypi-kernel-headers
 Homepage: https://deepx.ai
 Priority: optional
 Section: kernel
-Filename: pool/main/d/dxrt-driver-dkms/dxrt-driver-dkms_2.6.0-2_all.deb
-Size: 193980
-SHA256: 6ab417956d2abd70c181c4aa0bae71bc60e0961ccf37eac9fc82d0e6a8314468
-SHA1: 0b4aa266d9e7fccf8e4811f3ff0cce28a197aa5e
-MD5sum: c199661c8b50e2aef652040d5b1d5ea1
+Filename: pool/main/d/dxrt-driver-dkms/dxrt-driver-dkms_2.7.0-2_all.deb
+Size: 209306
+SHA256: 36ff756cdfee8312d26a1a9b1abb1a9ea58bd764798be17ad9cec89b838cd4b5
+SHA1: a3b542555a5389c01d77065287509ca7075508ac
+MD5sum: 520bfc687c7f99f8a8b15ac1ecf5d3d4
 Description: A DEEPX NPU Driver
 
 Package: libdxrt-bin
-Version: 3.4.2
+Version: 3.5.0
 Architecture: arm64
 Maintainer: DEEPX Runtime Team <rt@deepx.ai>
-Installed-Size: 66841
+Installed-Size: 24364
 Depends: libc6 (>= 2.27), libgcc-s1 (>= 4.0), libncurses6 (>= 6), libstdc++6 (>= 10.2), libtinfo6 (>= 6)
 Recommends: python3 (>= 3.8), python3-pip
 Conflicts: libdxrt
@@ -27,11 +27,11 @@ Replaces: libdxrt
 Homepage: https://deepx.ai
 Priority: optional
 Section: libs
-Filename: pool/main/libd/libdxrt-bin/libdxrt-bin_3.4.2_arm64.deb
-Size: 23405256
-SHA256: 161223058938c54efadc581b33499210194da58e55cd5ade332e692ca0d649c2
-SHA1: 6a0663eb936ee3e6bfe99dab2cdf5ff692358b16
-MD5sum: df5e9236bebec9c962f427aeffd1e4c4
+Filename: pool/main/libd/libdxrt-bin/libdxrt-bin_3.5.0_arm64.deb
+Size: 7286898
+SHA256: f7c942ddfa325f435de3ab9a42b32b322f97dacff7f3468a37e32a6386a03681
+SHA1: added3a3d4babc85de6a9fa0701b6a4a1d6530f5
+MD5sum: f8cf5f3788af342f07bf7bd38ebc2546
 Description: DEEPX Runtime Library (pre-built binary package)
  DEEPX Runtime (DXRT) library for running neural network inference
  on DEEPX NPU hardware.
@@ -48,19 +48,19 @@ Description: DEEPX Runtime Library (pre-built binary package)
  installs cleanly and the wheel install step in postinst is skipped.
 
 Package: sixfab-dx
-Version: 3.5.0
+Version: 3.5.1
 Architecture: arm64
 Maintainer: Sixfab FAE <fae@sixfab.com>
 Pre-Depends: sixfab-dx-migrate (>= 1.0.0)
-Depends: libstdc++6, libc6, libdxrt-bin (>= 3.4.2), dxrt-driver-dkms (>= 2.6.0), python3, libopencv-highgui410, libopencv-videoio410
+Depends: libstdc++6, libc6, libdxrt-bin (>= 3.5.0), dxrt-driver-dkms (>= 2.7.0), python3, libopencv-highgui410, libopencv-videoio410
 Recommends: python3-venv, python3-numpy
 Priority: optional
 Section: libs
-Filename: pool/main/s/sixfab-dx/sixfab-dx_3.5.0_arm64.deb
-Size: 41063376
-SHA256: ab4347620a2ebfc2dc233743450c1597ec4875b1d590c50f34b14131d1427573
-SHA1: 4ebebc4f62e71edcbc4f4d9598f1f7ba57da938f
-MD5sum: ab4cde8457cbd4feced9eacb17dd6959
+Filename: pool/main/s/sixfab-dx/sixfab-dx_3.5.1_arm64.deb
+Size: 41082376
+SHA256: 9c2c15f02c90f3c8f34e4d4395bdab2e7c5b1090773d033c67fdbcbe6eb39022
+SHA1: 505a16c851e7cd6c84e88c03bbb7f863007905f0
+MD5sum: 969e2b5b236fa0bff749f3204e831471
 Description: DeepX NPU user-space package for Raspberry Pi by Sixfab
  Sixfab user-space layer on top of the DEEPX runtime (libdxrt-bin) and
  kernel driver (dxrt-driver-dkms): demo application, sample model and
